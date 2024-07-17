@@ -5,4 +5,4 @@ Bivariate choropleth:
 This was made by joining two sources of electoral data (from the EU referendum and from the 2017 UK general election) with a UK electoral constituency geojson file. The colouring indicates both the quartile of support for leave and the quartile of support for the Conservative party or UKIP.
 
 
-![alt text](https://raw.githubusercontent.com/Mechnar9000/datafiles/main/bivariate_choropeth.jpg)
+![alt text](https://raw.githubusercontent.com/Mechnar9000/datafiles/main/bivariate_choropleth.jpg)
