@@ -1,6 +1,6 @@
 Hi all, this is my analytics portfolio right now. Please take a look at my work. 
 
-**Project 1: Bivariate choropleth**
+#**Project 1: Bivariate choropleth**
 
 [Link to source code](https://github.com/Mechnar9000/datafiles/blob/main/UK%20election%20results%20choropleths.ipynb)
 
@@ -28,7 +28,11 @@ Finally, I show my own choropleth of regions where support for leaving the Europ
 
 ![alt text](https://raw.githubusercontent.com/Mechnar9000/datafiles/main/majority_support.jpg)
 
-**Project 2: Distribution and frequency of German petrol stations at different postcode resolutions**
+#**Project 2: Distribution and frequency of German petrol stations at different postcode resolutions**
 
-Germany's postcode system has the interesting characteristic of decreasing in regional resolution when the 5-digit postcode is truncated. This means that by using only the first n digits of the postcode, we can investigate more coarse-grained solutions. 
+Germany's postcode system has the interesting characteristic of decreasing in regional resolution when the 5-digit postcode is truncated. This means that by using only the first n digits of the postcode, we can investigate more coarse-grained solutions, resulting in a deeper understanding of how they are distributed. 
+
+![alt text]([https://raw.githubusercontent.com/Mechnar9000/datafiles/main/majority_support.jpg](https://github.com/Mechnar9000/datafiles/blob/main/combineddigits.jpg))
+
+
 
