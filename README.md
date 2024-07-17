@@ -2,7 +2,7 @@ Hi all, this is my analytics portfolio right now. Please take a look at my work.
 
 **Project 1: Bivariate choropleth**
 
-[Link to source code](UK_election_results_choropleths.ipynb)
+[Link to source code](https://github.com/Mechnar9000/datafiles/blob/main/UK%20election%20results%20choropleths.ipynb)
 
 This was made by joining two sources of electoral data (from the 2016 referendum on the UK's membership of the EU and from the 2017 UK general election) with a UK electoral constituency geojson file. The colouring indicates both the quartile of support for leave and the quartile of support for the Conservative party or UKIP. This allows us to synthesize the data from two different choropleths into one visualization. Using quartiles provides richer insight into the political landscape of the United Kingdom, allowing us to identify Labour-supporting regions that were in favour of Brexit as well as Conservative voting areas that were in favour of remaining within the European Union. 
 
