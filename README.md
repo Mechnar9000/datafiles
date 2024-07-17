@@ -12,3 +12,9 @@ The visualizations the data was taken from can be seen below.
 The first choropleth shows the proportion of leave support in the 2016 election:
 
 ![alt text](https://raw.githubusercontent.com/Mechnar9000/datafiles/main/leave_voting.jpg)
+
+The second choropleth shows the proportion of people who voted for either the Conservative party or the UKIP party in the 2017 election. 
+
+![alt text](https://raw.githubusercontent.com/Mechnar9000/datafiles/main/conservative_ukip_support.jpg)
+
+Please note that, by tradition, the constituency that is held by the speaker of the House of Commons is not contested by the major parties. It has therefore been excluded. 
