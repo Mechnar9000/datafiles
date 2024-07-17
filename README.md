@@ -30,11 +30,28 @@ Finally, I show my own choropleth of regions where support for leaving the Europ
 
 #**Project 2: Distribution and frequency of German petrol stations at different postcode resolutions**
 
+[Link to source code](https://github.com/Mechnar9000/datafiles/blob/main/Choropleth%20of%20German%20Petrol%20Stations.ipynb)
+
 Germany's postcode system has the interesting characteristic of decreasing in regional resolution when the 5-digit postcode is truncated. This means that by using only the first n digits of the postcode, we can investigate more coarse-grained solutions, resulting in a deeper understanding of how they are distributed. 
 
 **Full 5-digit resolution:**
 
+This choropleth seems to have a resolution that is too fine-grained to make sense of. 
+
 ![alt text](https://github.com/Mechnar9000/datafiles/blob/main/5-digit.jpg)
+
+**3-digit resolution:**
+
+This choropleth appears show more interesting patterns. For example, a north-west to south-east coridor where petrol stations are more frequent. However, we must also consider that not all postcode regions are of equal geographic size in Germany, following population density, so the size of the regions in sparsely populated areas may be affecting this.  
+
+![alt text](https://github.com/Mechnar9000/datafiles/blob/main/3-digit.jpg)
+
+**2-digit resolution:**
+
+This evenly more coarsely grained resolution seems to confirm the existence of the NW-SE corridor. It also shows the high frequency of petrol stations near the Benelux regions, which is perhaps due to high demand from trucks travelling from the Benelux ports into and out of Germany. 
+
+![alt text](https://github.com/Mechnar9000/datafiles/blob/main/2-digit.jpg)
+
 
 
 
