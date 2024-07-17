@@ -8,7 +8,7 @@ This was made by joining two sources of electoral data (from the 2016 referendum
 
 Insight from data: 
 
-Reading the bivariate choropleth, it is clear regions to the north, west, and south of London leant towards the Conservatives or UKIP, but levels of support for leaving the EU were low. Meanwhile, regions to the east of London, as well as the East Midlands, both supported the Conservative/UKIP parties and leaving the EU. Regions in the north of England (around Manchester and Liverpool) as well as South Wales showed higher levels of support for leaving the EU but low levels of support for Conservatives/UKIP. Areas such as Scotland supported neither Conservative/UKIP parties nor leaving the EU. Ultimately, the visualization demonstrates that the vote to leave the European Union did not follow the traditional left-right party divisions within the United Kingdom. 
+Reading the bivariate choropleth, it is clear regions to the north, west, and south of London leant towards the Conservatives or UKIP, but levels of support for leaving the EU were low. Meanwhile, regions to the east of London, as well as the East Midlands, both supported the Conservative/UKIP parties and leaving the EU. Regions in the north of England (around Manchester, Liverpool and West Yorkshire) as well as South Wales showed higher levels of support for leaving the EU but low levels of support for Conservatives/UKIP. Areas such as Scotland supported neither Conservative/UKIP parties nor leaving the EU. Ultimately, the visualization demonstrates that the vote to leave the European Union did not follow the traditional left-right party divisions within the United Kingdom. 
 
 The visualizations of the data sources that are synthesized above can be seen below:
 
