@@ -6,7 +6,7 @@ This was made by joining two sources of electoral data (from the EU referendum a
 
 ![alt text](https://raw.githubusercontent.com/Mechnar9000/datafiles/main/bivariate_choropleth.jpg)
 
-The visualizations the data was taken from can be seen below.
+The visualizations of the data sources that are synthesized above can be seen below:
 
 The first choropleth shows the proportion of voters who voted to leave in the 2016 election:
 
