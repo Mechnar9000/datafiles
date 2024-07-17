@@ -32,7 +32,9 @@ Finally, I show my own choropleth of regions where support for leaving the Europ
 
 Germany's postcode system has the interesting characteristic of decreasing in regional resolution when the 5-digit postcode is truncated. This means that by using only the first n digits of the postcode, we can investigate more coarse-grained solutions, resulting in a deeper understanding of how they are distributed. 
 
-![alt text](https://github.com/Mechnar9000/datafiles/blob/main/combineddigits.jpg)
+**Full 5-digit resolution:**
+
+![alt text](https://github.com/Mechnar9000/datafiles/blob/main/5-digit.jpg)
 
 
 
