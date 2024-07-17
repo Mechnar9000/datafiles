@@ -21,3 +21,7 @@ The second choropleth shows the proportion of the electorate who voted for eithe
 ![alt text](https://raw.githubusercontent.com/Mechnar9000/datafiles/main/conservative_ukip_support.jpg)
 
 Please note that, by tradition, the constituency that is held by the speaker of the House of Commons is not contested by the major parties. It has therefore been excluded from the data.
+
+Finally, I show my own choropleth of regions where support for leaving the European Union exceeded 50%: 
+
+![alt text](https://raw.githubusercontent.com/Mechnar9000/datafiles/main/majority_support.jpg)
