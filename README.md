@@ -4,13 +4,13 @@ Hi all, this is my analytics portfolio right now. Please take a look at my work.
 
 [Link to source code](https://github.com/Mechnar9000/datafiles/blob/main/UK%20election%20results%20choropleths.ipynb)
 
-This was made by joining two sources of electoral data (from the 2016 referendum on the UK's membership of the EU and from the 2017 UK general election) with a UK electoral constituency geojson file. The colouring indicates both the quartile of support for leave and the quartile of support for the Conservative party or UKIP. This allows us to synthesize the data from two different choropleths into one visualization. Using quartiles provides richer insight into the political landscape of the United Kingdom, allowing us to identify Labour-supporting regions that were in favour of Brexit as well as Conservative voting areas that were in favour of remaining within the European Union. 
+This was made by joining two sources of electoral data (from the 2016 referendum on the UK's membership of the EU and from the 2017 UK general election) with a UK electoral constituency geojson file. The colouring indicates both the quartile of support for leave and the quartile of support for the Conservative party or UKIP. This allows us to synthesize the data from two different choropleths into one visualization. Using quartiles provides richer insight into the political landscape of the United Kingdom, allowing us to identify regions that were in favour of Brexit that do not vote for right-oriented parties as well as right-oriented voting areas that were in favour of remaining within the European Union. 
 
 ![alt text](https://raw.githubusercontent.com/Mechnar9000/datafiles/main/bivariate_choropleth.jpg)
 
 Insight from data: 
 
-Reading the bivariate choropleth, it is clear regions to the north, west, and south of London leant towards the Conservatives or UKIP, but levels of support for leaving the EU were low. Meanwhile, regions to the east of London, as well as the East Midlands, both supported the Conservative/UKIP parties and leaving the EU. Regions in the north of England (around Manchester, Liverpool and West Yorkshire) as well as South Wales showed higher levels of support for leaving the EU but low levels of support for Conservatives/UKIP. Areas such as most of Scotland and Northern Ireland supported neither Conservative/UKIP parties nor leaving the EU. Ultimately, the visualization demonstrates that the vote to leave the European Union did not follow the traditional left-right party divisions within the United Kingdom. 
+Reading the bivariate choropleth, it is clear regions to the north, west, and south of London leant towards the Conservatives or UKIP, but levels of support for leaving the EU were low. Meanwhile, regions to the east of London, as well as the East Midlands, both supported the Conservative/UKIP parties and leaving the EU. Regions in the north of England (around Manchester, Liverpool and West Yorkshire) as well as South Wales showed higher levels of support for leaving the EU but low levels of support for right-oriented parties. Areas such as most of Scotland and Northern Ireland supported neither Conservative/UKIP parties nor leaving the EU. It should be noted that the constituent nations of the UK, other than England, have a distinct political landscape and their own national parties. Ultimately, the visualization demonstrates that the vote to leave the European Union did not follow the traditional left-right party divisions within the United Kingdom. 
 
 The visualizations of the data sources that are synthesized above can be seen below:
 
@@ -28,7 +28,7 @@ Finally, I show my own choropleth of regions where support for leaving the Europ
 
 ![alt text](https://raw.githubusercontent.com/Mechnar9000/datafiles/main/majority_support.jpg)
 
-#**Project 2: Distribution and frequency of German petrol stations at different postcode resolutions**
+#**Project 2: Distribution and frequency of petrol stations in Germany at different postcode resolutions**
 
 [Link to source code](https://github.com/Mechnar9000/datafiles/blob/main/Choropleth%20of%20German%20Petrol%20Stations.ipynb)
 
