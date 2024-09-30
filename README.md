@@ -6,7 +6,7 @@ If you want an overview of my notebook work and the kind of educational backgrou
 
 [Link to code](https://github.com/Mechnar9000/datafiles/blob/main/Hegelian%20Retrieval%20Augmented%20Generation%20(RAG).ipynb)
 
-This was a project I built provide a simple example of how a RAG system can be used to augment the output of a LLM (large language model) e.g. ChatGPT. I used "The Phenomenology of Spirit" by Hegel because it was an example of a large (and famously inscrutable) body of text. 
+This was a project I built to provide a simple example of how a RAG system can be used to augment the output of a LLM (large language model) e.g. ChatGPT. I used "The Phenomenology of Spirit" by Hegel because it was an example of a large (and famously inscrutable) body of text. 
 
 Three chunking approaches were experimented with:
 
@@ -14,19 +14,19 @@ Three chunking approaches were experimented with:
 2. Vectorization of sentences
 3. Vectorization of sentences with n sentence padding either side of the retrieved
 
-The model used for text embedding was "text-embedding-ada-002" which was famously used by the earlier ChatGPT models. This represents text as a 1536 element vector. This was accomplished using the ChatGPT API which handles most of the preprocessing. Nonetheless, some preprocessing of the raw text file was necessary to divide the text into chunks and remove some of the mess that resulted from scraping the data from a pdf file (llama was used for scraping).
+The model used for the text embeddings was "text-embedding-ada-002" which was famously used by the earlier ChatGPT models. This represents each text chunk as a 1536 element vector. This was accomplished using the ChatGPT API which handles most of the preprocessing. Nonetheless, some preprocessing of the raw text file was necessary to divide the text into chunks and remove some of the mess that resulted from scraping the data from a pdf file (llama was used for scraping).
 
-The result of vectorization was m x 1536 matrix that represented the complete text where m is the number of chunks. 
+The result of vectorization was an m x 1536 matrix that represented the complete text (where m is the number of chunks). 
 
-A simple function was them implemented which takes a user question as text e.g. "What did Hegel say about spirit?" and converted it into the same embedding format. 
+A simple function was them implemented which takes a user's question as text e.g. "What did Hegel say about spirit?" and converts it into the same embedding format. 
 
-A cosine similiarity distance metric was then used to retrieve the top k most matching chunks and their indices by comparing the query embedding with the matrix. 
+A cosine similiarity distance metric was then used to retrieve the top k most matching chunks and their indices by comparing the prompt embedding with each vector stored in the matrix. 
 
 The raw text corresponding with the relevant vectors was then fed to the LLM as part of the user prompt alongside instructions to make use of the text when answering the question. 
 
 With this model, I was able to demonstrate 3 key advantages of the RAG approach to AI tools:
 
-1. The distance metric was successful in retrieving relevant information. The top k chunks returned generally contained information pertinent to the query where possible, meaning that cosine similiarity is an effective means to retrieve relevant information:
+1. The distance metric was successful in retrieving relevant information. The top k chunks returned generally contained information pertinent to the prompt where possible, meaning that cosine similiarity is an effective means to retrieve relevant information:
 
 ![alt text](https://raw.githubusercontent.com/Mechnar9000/datafiles/main/rag_output.jpg)
 
@@ -34,22 +34,13 @@ With this model, I was able to demonstrate 3 key advantages of the RAG approach 
 
 ![alt text](https://github.com/Mechnar9000/datafiles/blob/main/rag_hallucinations.jpg)
 
-3. The RAG model was able to avoid factual mistakes by using the retrieved information. For example, when provided a query asking about a very niche reference to a metaphor in the work of Hegel, the RAG model response was confident, while the LLM incorrectly claimed that it was never explicitly discussed (but nonetheless made up an interpretation).
+3. The RAG model was able to avoid factual mistakes by using the retrieved information. For example, when provided a prompt asking about a very niche reference to a metaphor in the work of Hegel, the RAG model response was confident, while the baseline LLM incorrectly claimed that it was never explicitly discussed (but nonetheless made up an interpretation).
 
  ![alt text](https://raw.githubusercontent.com/Mechnar9000/datafiles/main/rag_mistake.jpg)
 
-This toy model adequately demonstrates that key advantages of the RAG approach to any business looking to integrate AI into their practices and improve within-institution information search. A scaled and refined version of this approach would be able to vastly improve the quality of the responses an employee user of an LLM would obtain and offer protection against hallucinated responses that could lead incorrect business decisions. 
+Of the 3 approaches experimented with, the the final approach, which vectorized the text sentence by sentence but then added additional context by padding the retrieved chunks with adjacent text chunks appears to be the most effective. Vectorization of whole sub-chapters meant the model was not able to retrieve relevant information w.r.t fine-grained questions about phrases that only appeared once or twice in the whole text, whereas the sentence-by-sentence approach had no problem here. 
 
-
-
-
-
-
-
-
-
-
-
+This toy model adequately demonstrates that key advantages of the RAG approach to any business looking to integrate AI into their practices and improve within-institution information search. A scaled and refined version of this approach would be able to vastly improve the quality of the responses an employee user would return from a prompt and offer protection against hallucinated responses that could lead incorrect business decisions. 
 
 
 #**Project 2: Bivariate choropleth**
