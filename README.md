@@ -36,7 +36,7 @@ With this model, I was able to demonstrate 3 key advantages of the RAG approach 
 
 3. The RAG model was able to avoid factual mistakes by using the retrieved information. For example, when asked about a very niche reference to a metaphor in the work of Hegel, the RAG model response was confident, while the LLM incorrectly claimed that it was never explicitly discussed (but nonetheless made up an interpretation).
 
- ![alt text](https://raw.githubusercontent.com/Mechnar9000/datafiles/main/rag_hallucination.jpg)
+ ![alt text](https://raw.githubusercontent.com/Mechnar9000/datafiles/main/rag_mistake.jpg)
 
 This toy model adequately demonstrates that key advantages of the RAG approach to any business looking to integrate AI into their practices and improve within-institution information search. A scaled and refined version of this approach would be able to vastly improve the quality of the responses an employee user of an LLM would obtain and offer protection against hallucinated responses that could lead incorrect business decisions. 
 
