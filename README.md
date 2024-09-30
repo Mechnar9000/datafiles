@@ -12,7 +12,7 @@ Three chunking approaches were experimented with:
 
 1. Vectorization of whole sub-chapters (aphorisms)
 2. Vectorization of sentences
-3. Vectorization of sentences with n sentence padding either side of the retrieved
+3. Vectorization of sentences with n sentence padding either side of the retrieved chunk of text
 
 The model used for the text embeddings was "text-embedding-ada-002" which was famously used by the earlier ChatGPT models. This represents each text chunk as a 1536 element vector. This was accomplished using the ChatGPT API which handles most of the preprocessing. Nonetheless, some preprocessing of the raw text file was necessary to divide the text into chunks and remove some of the mess that resulted from scraping the data from a pdf file (llama was used for scraping).
 
