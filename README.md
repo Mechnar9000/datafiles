@@ -22,7 +22,7 @@ A simple function was them implemented which takes a user's question as text e.g
 
 A cosine similiarity distance metric was then used to retrieve the top k most matching chunks and their indices by comparing the prompt embedding with each vector stored in the matrix. 
 
-The raw text corresponding with the relevant vectors was then fed to the LLM as part of the user prompt alongside instructions to make use of the text when answering the question. 
+The raw text corresponding with the relevant vectors was then fed to the LLM as part of the user prompt alongside instructions to make use of the text when answering the question. The LLM used was GPT-3.5 Turbo, and the responses of the RAG model were compared to the baseline responses from this model.
 
 With this model, I was able to demonstrate 3 key advantages of the RAG approach to AI tools:
 
