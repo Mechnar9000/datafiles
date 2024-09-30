@@ -32,7 +32,7 @@ With this model, I was able to demonstrate 3 key advantages of the RAG approach 
 
 2. The instructions to the LLM alongside the relevant information meant that the RAG model avoided hallucination and would return "I don't know" if the returned chunks did not contain any relevant information while the basic LLM would return something speculative and potentially wrong:
 
-![alt text](https://github.com/Mechnar9000/datafiles/blob/main/rag_hallucination.jpg)
+
 
 3. The RAG model was able to avoid factual mistakes by using the retrieved information. For example, when provided a query asking about a very niche reference to a metaphor in the work of Hegel, the RAG model response was confident, while the LLM incorrectly claimed that it was never explicitly discussed (but nonetheless made up an interpretation).
 
